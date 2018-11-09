@@ -1,0 +1,114 @@
+header {
+  background: #e3f2fd;
+}
+
+header .container {
+  margin-bottom: 30px;
+}
+
+.container{
+    padding: 25px 10px 30px 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Search{
+    padding: 15px
+}
+form[name="search"] {
+    position: relative;
+    width: 100%;
+    max-width: 755px;
+    margin: auto;
+    display: flex;
+}
+
+.Search input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 5px;
+    outline: none;
+}
+.Search button {
+    height: 42px;
+    padding: 0 15px;
+    border: 5px;
+    background: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Search select{
+    margin: 0 5px;
+    height: 42px;
+    padding: 10px;
+    border: 5px;
+    font-size: 14px;
+    line-height: 1;
+    width: 250px;
+}
+
+figure {
+    display: inline-block;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+figure img {
+    display: block;
+    border: 10px solid #fff;
+    outline: 1px solid #c9c9c9;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+}
+
+figure img:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+figure figcaption {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #29c5e6;
+}
+
+figure .nav-link {
+  padding-left: 0;
+}
+
+figure p{
+    font-size: 14px;
+}
+footer {
+    background: #e3f2fd;
+    color: #17a2b8;
+    font-size: 11px;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Oswald', sans-serif;
+
+}
+#footer {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    height: 65px;
+
+}
+
+#navbarNavDropdown {
+  justify-content: flex-end;
+}
+
+.dropdown-toggle:after {
+  vertical-align: middle;
+}

@@ -1,0 +1,13 @@
+.login-form button{
+    height: 42px;
+    padding: 0 15px;
+    background: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+    border: 5px;
+}
+
+.goToLogin{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
